@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 30px;
+    padding-top: 0;
+    background-color: black;
+    color:aliceblue;
+}
+
+.container{
+    background-color: rgb(4, 4, 35);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 60px;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+.budget{
+    margin-bottom: 40px;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+fieldset{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+label{
+    font-size: 25px;
+}
+
+#dropdown{
+    font-size: 25px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
+
+button{
+    font-size: 25px;
+    background: linear-gradient(yellow, rgb(185, 92, 20));
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: linear-gradient(rgb(185, 92, 20), yellow);
+}
+
+#output{
+    border: 2px solid yellow;
+    padding: 30px 15px;
+    margin: 50px 0 0 0;
+    background-color: rgb(181, 175, 175);
+}
+
+.hide{
+    display: none;
+}
+
+.input-container input{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.surplus{
+    display: block;
+    color: green;
+    font-size: 40px;
+    text-align: center;
+}
+
+.deficit{
+    display: block;
+    color: rgb(49, 5, 5);
+    font-size: 40px;
+    text-align: center;
+}
